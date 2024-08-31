@@ -18,6 +18,8 @@ public:
 	GDExample();
 	~GDExample();
 
+	static void test_function();
+
 	void _process(double delta) override;
 };
 
